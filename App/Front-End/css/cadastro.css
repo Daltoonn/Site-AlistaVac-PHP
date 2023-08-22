@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("/Static/font/Poppins/Poppins-Black.ttf")format("truetype");
+    }
+    
+    
+body{
+   margin: 0%;
+
+}
+
+.retangulo {
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 0%;
+    margin:0%;
+    background: #12306A;
+      
+}
+
+.Titulo-cadastro {
+
+    width: center; /* Defina a largura desejada para o contêiner */
+    color: #12306A;
+    font-family: Poppins;
+    font-size: 290%;
+    
+    position: absolute;
+    top: 5%;
+    left: 48%;
+    transform: translate(-50%, 0);
+
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    
+}
+
+.Nome {
+
+    color: #000000;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    
+    font-size: 120%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.input-nome {
+    position: absolute;
+    width: 80%;
+    left: 4%;
+    top: 25%;;
+
+    border: 8px solid #ccc;
+    border-radius: 22px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+.Senha {
+
+    color: #000000;
+    position: absolute;
+    left:5%;
+    top: 45%;
+    
+    font-size: 120%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.input-Senha {
+    position: absolute;
+    width: 80%;
+    left: 4%;
+    top: 50%;
+
+    border: 8px solid #ccc;
+    border-radius: 22px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.botao-eviar {
+
+    position: absolute;
+    top: 80%;
+    width:27%;
+    left: 17.5%;
+    font-size: 120%;
+    transform: translate(-45%, 0);
+
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 22px;
+    background-color: #0936a7;
+    padding: 16px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.botao-eviar:hover
+{
+ background-color: blue;
+}

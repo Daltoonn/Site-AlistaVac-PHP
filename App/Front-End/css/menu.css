@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("/Front-End/font/Poppins/Poppins-ExtraBoldItalic.ttf")format("truetype");
+    font-family: "BebasNeue";
+    src: url("/Front-End/font/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+}
+
+body{
+    margin: 0%;
+}
+ 
+.retangulo {
+     
+     box-sizing: border-box;
+     position: absolute;
+     width: 100%;
+     height: 7%;
+     top: 0%;
+     margin:0%;
+     background: #12306A;
+
+}
+
+
+.texto-nav {
+
+    color: #FFF;
+    font-family:sans-serif;
+    font-size: 190%;
+    position:absolute;
+    right: 8%;
+    top: 8%;
+}
+
+.quadrado {
+
+    width: center; /* Defina a largura desejada para o contêiner */
+    color: #ffffff;
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 290%;
+    font-style: normal;
+    line-height: normal;
+
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    top: 19%;
+    right: 05%;
+
+    border-radius: 27px;
+    box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
+     
+    background-color:  #2F6AA0;
+}
+
+.nixo1 {
+
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    top: 22%;
+    left: 8%;
+    cursor: pointer;
+
+    border-radius: 25px;
+    border: 3px solid #12306A;
+
+
+    box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
+     
+    background-color:  #ffffff;
+}
+
+.nixo2 {
+
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    top: 42%;
+    left: 8%;
+    cursor: pointer;
+
+    border-radius: 25px;
+    border: 3px solid #12306A;
+
+
+    box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
+     
+    background-color:  #ffffff;
+}
+
+.nixo3 {
+
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    top: 62%;
+    left: 8%;
+    cursor: pointer;
+
+    border-radius: 25px;
+    border: 3px solid #12306A;
+
+
+    box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
+     
+    background-color:  #ffffff;
+}
+
+.nixo4 {
+
+    position: absolute;
+    width: 6%;
+    height: 6%;
+    top: 82%;
+    left: 8%;
+    cursor: pointer;
+
+    border-radius: 25px;
+    border: 3px solid #12306A;
+
+
+    box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
+     
+    background-color:  #ffffff;
+}
+
+.item-nixo1 {
+
+    color: #12306A;
+    font-family: BebasNeue;
+    font-size: 170%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    right: 8%;
+    top: -9%;
+    
+}
+
+.item-nixo2 {
+
+    color: #12306A;
+    font-family: BebasNeue;
+    font-size: 170%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    right: 25%;
+    top: -9%;
+    
+}
+
+.item-nixo3 {
+
+    color: #12306A;
+    font-family: BebasNeue;
+    font-size: 170%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    right: 12%;
+    top: -9%;
+    
+}
+
+.item-nixo4 {
+
+    color: #12306A;
+    font-family: BebasNeue;
+    font-size: 170%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    right: 25%;
+    top: -50%;
+    
+}
+
+
+.nixo1:hover
+{
+ background-color: blue;
+}
+
+.nixo2:hover
+{
+ background-color: blue;
+}
+
+.nixo3:hover
+{
+ background-color: blue;
+}
+
+.nixo4:hover
+{
+ background-color: blue;
+}
+
+
+.bloco-notificacao {
+    background-color: rgb(1, 52, 84);
+    border: 1px solid #12306A;
+    padding: 5px;
+}
+
+.bloco-notificacao img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px; /* Centralizar a imagem e adicionar margem na parte inferior */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Static/css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <nav>   
+        <div class="retangulo"></div>
+    </nav>
+
+    <h1 class="Titulo-cadastro">CADASTRO</h1>
+
+<!-- estou associando o label com input entao se eu alterar o padding do input vou alterar o do label-->
+    <label class="Nome"> Nome <br>
+        <input class="input-nome"type = "text" placeholder="Digite seu Nome"></label>
+
+    <label class="Sobrenome"> Sobrenome <br>
+        <input class="input-Sobrenome"type = "text" placeholder="Digite seu Sobrenome"></label>
+
+    <label class="CPF"> CPF <br>
+        <input class="input-CPF"type = "text" placeholder="Digite seu CPF"></label>    
+
+    <label class="Email"> Email <br>
+        <input class="input-Email"type = "text" placeholder="Digite seu Email"></label>   
+        
+    <label class="Telefone"> Telefone <br>
+        <input class="input-Telefone"type = "text" placeholder="Digite seu Telefone"></label>    
+
+    <label class="Idade"> Idade <br>
+        <input class="input-Idade"type = "text" placeholder="Digite sua Idade"></label> 
+        
+    <label class="Cidade">Selecione Sua Cidade <br>
+            <select class="select-cidade">
+    <!--selecione = 0 = nada-->
+    <!--selected = deixar marcado como padrao-->
+                <option value ="0" selected disabled >Selecione:</option>
+                <option value ="1">Itabira</option>
+                <option value ="2">Joao Monlevade</option>
+                <option value ="3">Bela Vista de Minas</option>
+            </select>
+    </label>
+
+    <label class="Senha"> Senha <br>
+        <input class="input-Senha"type = "password" placeholder="Digite sua Senha"></label> 
+
+    <label class="Senha-confirm">Confirme Sua Senha <br>
+        <input class="input-Senha-confirm"type = "password" placeholder="Digite sua Senha"></label>
+
+    <button class="botao-eviar" type="submit" >Cadastrar</button>
+
+
+</body>
+</html>

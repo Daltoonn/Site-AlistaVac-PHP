@@ -29,10 +29,10 @@ Arquitetura MVC (Model-View-Controller): separação clara entre lógica de neg�
 Padrão de Projeto Observer: utilizado para implementar notificações automáticas aos usuários, sempre que novos eventos são registrados, como a adição de uma vacina.
 
 # Imagens
-![Tela de Jogo](MemoryGame/Readme/1.png)
-![Tela de Jogo](MemoryGame/Readme/2.png)
-![Tela de Jogo](MemoryGame/Readme/3.png)
-![Tela de Jogo](MemoryGame/Readme/4.png)
-![Tela de Jogo](MemoryGame/Readme/5.png)
-![Tela de Jogo](MemoryGame/Readme/6.png)
-![Tela de Jogo](MemoryGame/Readme/7.png)
+![Tela de Jogo](App/Readme/1.png)
+![Tela de Jogo](App/Readme/2.png)
+![Tela de Jogo](App/Readme/3.png)
+![Tela de Jogo](App/Readme/4.png)
+![Tela de Jogo](App/Readme/5.png)
+![Tela de Jogo](App/Readme/6.png)
+![Tela de Jogo](App/Readme/7.png)
